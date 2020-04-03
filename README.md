@@ -1,4 +1,4 @@
-# Plugins Em C++ (Delegate ) com ponteiros e ponteiros funcoes
+# Plugins Em C++ (Delegate ) com ponteiros e funções 
 
 Como escrever plugins (conhecidos como Delegate) em C++ .
 Nova forma de olhar para ponteiros, e funções 
