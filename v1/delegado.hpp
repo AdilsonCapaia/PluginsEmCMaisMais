@@ -1,4 +1,5 @@
-#include<string>
-using namespace std;
-bool comparar(const string& s1, const string& s2);
-bool comparar(const string& s1, const string& s2, bool (*comparador)(const string&, const string&));
+#ifndef DELEGADO_H
+#define DELEGADO_H
+bool comparar(const std::string& s1, const std::string& s2);
+bool comparar(const std::string& s1, const std::string& s2, bool (*comparador)(const std::string&, const std::string&));
+#endif
