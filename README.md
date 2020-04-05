@@ -1,8 +1,8 @@
-# Plugins( ou Delegates ) Em C++  com ponteiros e funções 
+# Plugins e Delegates Em C++  com ponteiros e funções 
 
-Como escrever plugins (conhecidos como Delegate) em C++ .
-Nova forma de olhar para ponteiros, e funções 
+Como escrever Plugins e Delegates em C++ . Nova forma de olhar para ponteiros, e funções 
 
+- ## [O que é Plugin ou Delegates (Delegados) ?](#DEF-DELEGATE)
 - ## [Ponteiros](#PN)
   - ### [Definição de Ponteiros](#DPN)
 - ## [Ponteiros para *funções*](#PF)
