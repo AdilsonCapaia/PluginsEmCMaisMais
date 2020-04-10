@@ -34,4 +34,11 @@ Como exemplo prático, imagine que queremos executar um vídeo no formato **.AVI
 A cooperação entre *plugin* e *delegate* (delegado),  torna-se mais importante quando estamos a lidar com várias extensões(plugins), porque não sabemos de antemão quantos e quais tipos de plugins existirão, daí a necessidade de 
 delegar a tarefa para a o componente que sabe executar a tarefa em questão. 
 
+**Como escrever *plugins* e *delegados* em C++**
+
+Este projeto trata-se de dar resposta à questão acima por intermédio de teórias e exemplos práticos. 
+
+**Plugins** e **Delgados** escrevem-se com utilização massiva de ponteiros e funções, e um pouco de classes/estruturas. Mas não se preocupa, ao longo deste projeto  construiremos progressivamente  plugin e delegados passo por passo, todos conhecimentos necessários de ponteiros e funções serão dados de maneira que você consiga absorver a teoria, os exemplos práticos e desenvolver seus próprios plugins e delegados. Quando necessário darei-te referências onde você poderá procurar por conceitos para aprofundar seus conhecimentos de maneira que ao fim deste pequeno projeto você saiba desenvolver seus próprios **plugins** e **delegados**.
+
+Preparado para esta jornada ?  Vamos zimbora mo amigo :)
 
