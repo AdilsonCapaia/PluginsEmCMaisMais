@@ -17,6 +17,7 @@ Para perceber melhor o que é um **plugin** vamos ver um exemplo prático. Imagi
 - *ABP* ( Add Block Plus) para bloquear publicidades
 - *Screen Recorder* para gravar o ecrã do navegador 
 - *Flash Player* para executar vídeos com formatos modernos
+ 
  Estas extensões são chamados de plugins por que adicionam funcionalidades específicas ao programa informático existente que no nosso caso é o Google Chrome.
 
 Um **Delegate** (delegado) é nada mais do que um programa que permite a delegação de uma tarefa específica para o componente dedicado a executar esta tarefa, por meio de abstração de interfaces.
