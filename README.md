@@ -4,13 +4,9 @@ Como escrever Plugins e Delegates em C++ . Nova forma de olhar para ponteiros, e
 
 - ## [O que é um Plugin ou Delegate (Delegado) ?](#DEF-PLUGIN-DELEGATE)
 - ## [Ponteiros](#PN)
-  - ### [Definição de Ponteiros](#DPN)
 - ## [Ponteiros para *funções*](#PF)
-  - ### [Definição de Funções](#DFN)
-  - ### [Ponteiros que apontam para funções](#PAF)
 - ## [Primeira Tentativa para **Plugins/Delagates**](#1-Tentativa-Plaguin)
 - ## [Ponteiros para *arrays*](#PA)
-  - ### [Ponteiros que apontam para arrays](#PAA)
 - ## [Funções que retornam Ponteiros para *arrays*](#FRPA)
 - ## [Funções que retornam Ponteiros para funções](#FRPF)
 
@@ -18,9 +14,9 @@ Como escrever Plugins e Delegates em C++ . Nova forma de olhar para ponteiros, e
 Um **Plugin** é nada mais do que um componente que adiciona funcionalidades específicas há um programa informático existente. Plugins possibilitam personalizações de programas.
 
 Para perceber melhor o que é um **plugin** vamos ver um exemplo prático. Imagina por exemplo o navegador Google Chrome, ele é um programa informático, e permite adicionar personalizações por intermédio de outros programas chamados de extensões. Por exemplo
-*ABP* ( Add Block Plus) para bloquear publicidades
-*Screen Recorder* para gravar o ecrã do navegador 
-*Flash Player* para executar vídeos com formatos modernos
+- *ABP* ( Add Block Plus) para bloquear publicidades
+- *Screen Recorder* para gravar o ecrã do navegador 
+- *Flash Player* para executar vídeos com formatos modernos
  Estas extensões são chamados de plugins por que adicionam funcionalidades específicas ao programa informático existente que no nosso caso é o Google Chrome.
 
 Um **Delegate** (delegado) é nada mais do que um programa que permite a delegação de uma tarefa específica para o componente dedicado a executar esta tarefa, por meio de abstração de interfaces.
